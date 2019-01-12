@@ -1,3 +1,4 @@
+html {overflow-x: hidden;}
 body {
   margin: 0;
   overflow-x: hidden;
@@ -39,6 +40,10 @@ a {
   cursor: pointer;
   color: white;
   text-decoration: none;
+}
+
+.current {
+  color: gray;
 }
 
 .menu-link {
@@ -83,6 +88,9 @@ a {
   background-color: #012D41;
 }
 
+.container {
+  margin: 2rem;
+}
 
 #contact-area {
   margin: 2rem;

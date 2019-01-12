@@ -1,3 +1,4 @@
+html {overflow-x: hidden;}
 body {
   overflow-x: hidden;
   background-color: #024766;
@@ -50,6 +51,10 @@ a {
   cursor: pointer;
   color: white;
   text-decoration: none;
+}
+
+.current {
+  color: gray;
 }
 
 .menu-link {
