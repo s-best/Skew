@@ -1,7 +1,7 @@
-html {overflow-x: hidden;}
 body {
   margin: 0;
   overflow-x: hidden;
+  position: relative;
   background-image: url("https://images.unsplash.com/photo-1547129172-c5f3ab428bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
   background-size: cover;
   background-repeat: no-repeat
