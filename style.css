@@ -1,7 +1,6 @@
-html {overflow-x: hidden;}
+html {overflow-x: hidden; position: relative;}
 body {
   overflow-x: hidden;
-  position: relative;
   background-color: #024766;
   margin: 0;
 }
