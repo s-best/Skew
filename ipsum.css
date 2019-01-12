@@ -1,13 +1,12 @@
 body {
   margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
   background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/KMAO0W7U2Z.jpg");
   background-size: cover;
   background-repeat: no-repeat
 }
 
-.overflow-wrap {
-  overflow-x: hidden;
-}
 
 h3 {
   color: white;
