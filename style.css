@@ -76,6 +76,10 @@ a {
   transition: right 1s;
 }
 
+.menu-overflow {
+  overflow-x: hidden;
+}
+
 .open {
   right: 0;
 }
