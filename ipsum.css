@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/KMAO0W7U2Z.jpg");
   background-size: cover;
@@ -75,16 +75,17 @@ a {
   width: 25%;
   height: 8.9rem;
   position: absolute;
-  right: 0;
+  left: -25%;
+  top: 3rem;
   background-color: #012d41;
-  margin-top: 3rem;
-  margin-right: -25%;
-  transition: margin 1s;
+  transition: left 1s;
+  z-index: 99;
 }
 
 .open {
-  margin-right: 0rem;
+  left: 0;
 }
+
 
 p {
   color: white;
@@ -177,13 +178,12 @@ textarea {
 
 @media only screen and (max-width: 750px) {  
   
-   .menu {
+  .menu {
     width: 100%;
-    margin-right: -100%;
-    z-index: 99;
+    left: -100%;
   }
   .open {
-    margin-right: 0;
+    left: 0;
   }
   
   .p-squeeze {

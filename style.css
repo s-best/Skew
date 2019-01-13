@@ -70,18 +70,15 @@ a {
   width: 25%;
   height: 8.9rem;
   position: absolute;
-  right: -25%;
+  left: -25%;
   top: 3rem;
   background-color: #012d41;
-  transition: right 1s;
-}
-
-.menu-overflow {
-  overflow-x: hidden;
+  transition: left 1s;
+  z-index: 99;
 }
 
 .open {
-  right: 0;
+  left: 0;
 }
 
 p {
@@ -178,16 +175,12 @@ p {
     width: 80%;
   }
 
-  .nav {
-    overflow-x: hidden;
-  }
-
   .menu {
     width: 100%;
-    right: -100%;
+    left: -100%;
   }
   .open {
-    right: 0;
+    left: 0;
   }
 
   .p-squeeze {
